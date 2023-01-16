@@ -240,8 +240,15 @@ function displayAccordionTarget(id) {
         var $accordion = $(safeId).closest('.accordion');
     }
     if ($accordion.length) {
-        $accordion.find('.panel-heading').addClass('active');
-        $accordion.find('.panel-body').addClass('in').css('height', 'auto');
+        $accordion.find('.panel-heading').first().addClass('active');
+        $accordion.find('.panel-body').first().addClass('in').css('height', 'auto');
+    }
+
+    let parent = $accordion.parents('.accordion');
+    // Recursivly expand parent accordion if one exists
+    if (parent.length) {    
+        let id = `#${parent[0].id}`;
+        displayAccordionTarget(id);
     }
 }
 
