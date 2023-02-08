@@ -11,8 +11,8 @@
   <param name="custom.meta.tags" select=""/>
   <param name="custom.meta.tag.separator" select=":"/>
   <param name="custom.meta.tag.pair.separator" select=";"/>
-  <param name="google.analytics" select=""/>
-  <param name="google.analytics.type" select="gtag"/>
+  <param name="google.analytics" select="GTM-WMLV7M9"/>
+  <param name="google.analytics.type" select="tagmanager"/>
   <param name="logo.link" select=""/>
   <param name="bootstrap.version" select="340"/>
   <param name="layout.custom.style.persistent.name" select="1"/>
@@ -44,10 +44,10 @@
   <param name="slides.revealjs.theme.custom" select=""/>
   <param name="slides.revealjs.background.image.opacity" select="1"/>
   <param name="slides.revealjs.default.background.image" select=""/>
-  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/seagate2/production-63ce53b0114619.50463849/49036-Lyve_Cloud_Account_API-Version_2-html5/out/css/image/default_slide_background.png"/>
+  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/seagate2/production-63e3a41c089b98.27547508/49036-Lyve_Cloud_Account_API-Version_2-html5/out/css/image/default_slide_background.png"/>
   <param name="slides.revealjs.logo" select=""/>
-  <param name="slides.revealjs.logo.out" select="/paligo/tmp/seagate2/production-63ce53b0114619.50463849/49036-Lyve_Cloud_Account_API-Version_2-html5/out/css/image/logo-light.png"/>
+  <param name="slides.revealjs.logo.out" select="/paligo/tmp/seagate2/production-63e3a41c089b98.27547508/49036-Lyve_Cloud_Account_API-Version_2-html5/out/css/image/logo-light.png"/>
   <param name="slides.revealjs.logo.alt" select=""/>
-  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/seagate2/production-63ce53b0114619.50463849/49036-Lyve_Cloud_Account_API-Version_2-html5/out/css/image/logo-dark.png"/>
+  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/seagate2/production-63e3a41c089b98.27547508/49036-Lyve_Cloud_Account_API-Version_2-html5/out/css/image/logo-dark.png"/>
   <param name="skip.index.page.by.redirect" select="1"/>
 </params>
